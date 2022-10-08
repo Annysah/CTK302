@@ -47,7 +47,7 @@ function draw() {
 
     case 4:
       text("Touch with four fingers and see Nigerian Jollof rice", 5, 22);
-      image(image3, width / 2, height / 2, 250, 250);
+      image(image4, width / 2, height / 2, 250, 250);
       break;
   }
 }
