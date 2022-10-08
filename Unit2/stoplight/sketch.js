@@ -85,17 +85,3 @@ function mouseReleased() {
   state++;
   if (state > 3) state = 0;
 }
-
-/*let x = 0;
-let v = 3;
-
-function setup() {
-  createCanvas(400, 400);
-}
-
-function draw() {
-  background(220);
-  rect(x, 100, 100, 100);
-  x += v;
-  if(x > width) x = 0;
-}*/
