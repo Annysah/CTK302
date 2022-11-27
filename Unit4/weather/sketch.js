@@ -80,10 +80,6 @@ function draw() {
       textSize(15);
       text(`windspeed is ${windspeed} km/h`, 350, 330);
 
-      // cloud
-      //fill("white");
-      //noStroke();
-      //ellipse(x, 500, 200, 100);
       image(image2, x, 400, 220, 150);
 
       // move the cloud's x position
