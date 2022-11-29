@@ -24,7 +24,7 @@ function draw() {
   translate(xPosition, yPosition);
 
   rotate(radians(alpha));
-  image(testImage, 0, 0, 500, 500);
+  image(testImage, 0, 100, 500, 500);
 
   pop();
 
@@ -32,9 +32,9 @@ function draw() {
   fill('white');
   noStroke();
   textFont(font1);
-  textSize(300);
+  textSize(70);
   textAlign(CENTER);
-  text("Wow", width / 2, height / 2);
+  text("Wow", width / 2, height / 2 - 110);
 }
 
 
