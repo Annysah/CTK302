@@ -32,7 +32,7 @@ function draw() {
   fill('white');
   noStroke();
   textFont(font1);
-  textSize(70);
+  textSize(200);
   textAlign(CENTER);
   text("Wow", width / 2, height / 2 - 110);
 }
